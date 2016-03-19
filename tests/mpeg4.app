@@ -1,0 +1,32 @@
+.application 1
+.cores 14
+0 BitstreamIn
+1 DDR
+2 VideoOut
+3 AudioOut
+4 Media_CPU
+5 3D_GFX
+6 SRAM2
+7 UpSamp
+8 SRAM1
+9 iDCT
+10 BAB
+11 CAM
+12 RISC_CPU
+13 Audio_DSP
+.arcs 15
+0 2 0.5
+2 3 0.5
+2 1 191
+5 1 600
+1 4 60.5
+1 7 942
+5 6 40
+4 13 40.5
+6 7 40
+7 13 40
+7 8 702
+12 8 250
+8 9 500
+12 11 250
+8 10 205
